@@ -1,0 +1,13 @@
+.target {
+  position: relative;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  transform: scale(var(--s, 1));
+  transition: transform 0.2s;
+}
+.target:active {
+  --s: 0.96;
+}
